@@ -1,4 +1,9 @@
-{
+import { register } from '@tokens-studio/sd-transforms';
+import StyleDictionary from 'style-dictionary';
+
+register(StyleDictionary);
+
+export default {
   "source": [
     "tokens/**/**.json"
   ],
