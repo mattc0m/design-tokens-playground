@@ -2,6 +2,4 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root {
-  --global-desktop-max-width: 1068px;
-}
+export const globalDesktopMaxWidth = "1068px";

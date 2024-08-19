@@ -3,7 +3,7 @@ import StyleDictionary from 'style-dictionary';
 
 register(StyleDictionary);
 
-export default {
+const sd = new StyleDictionary({
   "source": [
     "tokens/**/**.json"
   ],
@@ -36,4 +36,6 @@ export default {
       ]
     }
   }
-}
+});
+
+await sd.buildAllPlatforms();
